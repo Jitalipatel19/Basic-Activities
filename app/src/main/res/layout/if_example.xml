@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtno1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter No 1"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/edtno2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter No2"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/edt_no3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter No3"
+            android:inputType="numberSigned" />
+
+        <Button
+            android:id="@+id/button_printno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print No" />
+
+        <Button
+            android:id="@+id/button_odev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIND ODD/EVEN" />
+
+        <Button
+            android:id="@+id/button_max2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIND MAX" />
+
+        <Button
+            android:id="@+id/button_maxequal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIND MAX OR EQUAL" />
+
+        <Button
+            android:id="@+id/button_pnz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECK P/N/Z" />
+
+        <Button
+            android:id="@+id/button_max3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FIND MAX FROM 3 NOS" />
+
+    </LinearLayout>
+</ScrollView>

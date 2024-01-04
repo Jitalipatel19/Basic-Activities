@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actv_example"
+        android:title="ACTV EXAMPLE" />
+    <item
+        android:id="@+id/alert_example"
+        android:title="ALERT EXAMPLE" />
+    <item
+        android:id="@+id/analog_digital_example"
+        android:title="ANALOG DIGITAL EXAMPLE" />
+    <item
+        android:id="@+id/arithm_example"
+        android:title="ARITHM EXAMPLE" />
+    <item
+        android:id="@+id/bluetooth_example1"
+        android:title="BLUETOOTH  EXAMPLE-1" />
+    <item
+        android:id="@+id/bluetooth_example2"
+        android:title="BLUETOOTH EXAMPLE-2" />
+
+    <item
+        android:id="@+id/camera_example"
+        android:title="CAMERA EXAMPLE" />
+    <item
+        android:id="@+id/checkbox_example"
+        android:title="CHECKBOX EXAMPLE" />
+
+    <item
+        android:id="@+id/context_menu_example"
+        android:title="CONTEXT MENU EXAMPLE" />
+    <item
+        android:id="@+id/custom_toast_example"
+        android:title="CUSTOM TOAST EXAMPLE" />
+
+    <item
+        android:id="@+id/datepicker1"
+        android:title="DATEPICKER EXAMPLE 1" />
+    <item
+        android:id="@+id/datepicker2"
+        android:title="DATEPICKER EXAMPLE 2" />
+    <item
+        android:id="@+id/email_example"
+        android:title="EMAIL EXAMPLE " />
+
+    <item
+        android:id="@+id/firstactivity_example"
+        android:title="FIRST ACTIVITY EXAMPLE" />
+    <item
+        android:id="@+id/for_example"
+        android:title="FOR EXAMPLE" />
+    <item
+        android:id="@+id/if_example"
+        android:title="IF EXAMPLE" />
+    <item
+        android:id="@+id/implicit_intent_example"
+        android:title="INTENT EXAMPLE" />
+    <item
+        android:id="@+id/internal_storage_example"
+        android:title="INTERNAL_STORAGE EXAMPLE" />
+    <item
+        android:id="@+id/oneactivity_example"
+        android:title="ONE ACTIVITY EXAMPLE" />
+
+
+    <item
+        android:id="@+id/pbar_example"
+        android:title="PROGRESS BAR EXAMPLE" />
+    <item
+        android:id="@+id/popup_example"
+        android:title="POPUP EXAMPLE" />
+    <item
+        android:id="@+id/phonecall_example"
+        android:title="PHONE EXAMPLE" />
+    <item
+        android:id="@+id/ratingbar_example"
+        android:title="RATINGBAR EXAMPLE" />
+    <item
+        android:id="@+id/screen_orientation_example"
+        android:title="SCREEN ORIENTATION" />
+    <item
+        android:id="@+id/seekbar_example"
+        android:title="SEEKBAR EXAMPLE" />
+    <item
+        android:id="@+id/seekbar_discrete"
+        android:title="SEEKBAR DISCRETE EXAMPLE" />
+    <item
+        android:id="@+id/spinner_example"
+        android:title="SPINNER EXAMPLE" />
+    <item
+        android:id="@+id/switch_example"
+        android:title="SWITCH  EXAMPLE" />
+    <item
+        android:id="@+id/sms_example"
+        android:title="SMS EXAMPLE" />
+
+    <item
+        android:id="@+id/tpicker_example"
+        android:title="TIMEPICKER EXAMPLE" />
+    <item
+        android:id="@+id/texttospeech1"
+        android:title="TEXT TO SPEECH-1 EXAMPLE" />
+    <item
+        android:id="@+id/texttospeech2"
+        android:title="TEXT TO SPEECH-2 EXAMPLE" />
+    <item
+        android:id="@+id/toggle_button_example"
+        android:title="TOGGLE BUTTON EXAMPLE" />
+
+
+
+
+    <item
+        android:id="@+id/while_example"
+        android:title="WHILE EXAMPLE" />
+    <item
+        android:id="@+id/wifi_example"
+        android:title="WIFI EXAMPLE" />
+    <item
+        android:id="@+id/mainactivtiy"
+        android:title="MAIN ACTIVITY" />
+
+
+</menu>

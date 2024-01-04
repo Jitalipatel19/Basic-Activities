@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myfirstapplication"
+    >
+
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/home_house_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/home_house_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirstApplication">
+        <activity
+            android:name=".Wifi_Example"
+            android:exported="false" />
+        <activity
+            android:name=".Seekbar_Discrete_Example"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Screen_Oreintation_Exaample"
+            android:exported="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Arithm_Example"
+            android:exported="true" />
+
+        <activity
+            android:name=".If_Example"
+            android:exported="true" />
+        <activity
+            android:name=".For_Example"
+            android:exported="true" />
+        <activity
+            android:name=".While_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Custom_Toast_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Toggle_Button_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Switch_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Checkbox_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Alert_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Spinner_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Actv_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Ratingbar_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Seekbar_Example"
+            android:exported="true" />
+        <activity
+            android:name=".DatePicker_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Datepicker_Example2"
+            android:exported="true" />
+        <activity
+            android:name=".TimePicker_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Analog_Digital_Example"
+            android:exported="true" />
+        <activity
+            android:name=".ProgressBar_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Implicit_Itent_Example"
+            android:exported="true" />
+        <activity
+            android:name=".First_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Second_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".One_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Two_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Context_Menu_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Popup_Menu_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Internal_Storage_Example"
+            android:exported="true" />
+        <activity
+            android:name=".TextToSpeech_Example"
+            android:exported="true" />
+        <activity
+            android:name=".TextToSpeech_Example2"
+            android:exported="true" />
+        <activity
+            android:name=".Telephony_Manager_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Phone_Call_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Sms_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Email_Example"
+            android:exported="true" />
+        <activity
+            android:name=".Bluetooth_Example1"
+            android:exported="true" />
+        <activity
+            android:name=".Bluetooth_Example2"
+            android:exported="true" />
+        <activity
+            android:name=".Camera_Example"
+            android:exported="true" />
+    </application>
+
+</manifest>
